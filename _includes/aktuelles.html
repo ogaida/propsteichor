@@ -1,0 +1,27 @@
+<!-- akuelles -->
+<section id="two" class="wrapper style3 fade-up">
+<div class="inner">
+
+<h2>Aktuelles</h2>
+<div class="features">
+
+
+{% assign sorted_posts = site.aktuelles | sort:"position" %}
+{% for post in sorted_posts %}
+{% unless post.disabled %}
+<section>
+<span class="icon solid major {{post.fa_icon}}"></span>
+<h3>{{ post.content | markdownify }}</h3>
+<p>{{ post.when }}</p>
+</section>
+
+
+{% endunless %}
+{% endfor %}
+
+</div>							
+</div>
+</section>
+
+
+

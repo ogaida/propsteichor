@@ -1,0 +1,14 @@
+<!-- Intro -->
+
+{% assign sorted_posts = site.home | sort:"position" %}
+{% for post in sorted_posts %}
+{% unless post.disabled %}
+<section id="intro" class="wrapper style1 fullscreen fade-up">
+    <div class="inner">
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.content | markdownify }}</p>
+
+    </div>
+</section>
+{% endunless %}
+{% endfor %}

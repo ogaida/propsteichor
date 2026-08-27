@@ -1,0 +1,19 @@
+<!-- ueber uns -->
+<section id="one" class="wrapper style2 spotlights">
+
+{% assign sorted_posts = site.ueber_uns | sort:"position" %}
+{% for post in sorted_posts %}
+{% unless post.disabled %}
+    <section>
+      <a href="#" class="image"><img src="{{ post.picture }}" alt="" data-position="center center" /></a>
+      <div class="content">
+        <div class="inner">
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.content | markdownify }}</p>
+        </div>
+      </div>
+    </section>
+{% endunless %}
+{% endfor %}
+
+</section>

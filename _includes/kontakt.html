@@ -1,0 +1,22 @@
+<!-- kontakt -->
+<section id="three" class="wrapper style1 fade-up">
+<div class="inner">
+<h2>Kontakt</h2>
+<p>Schreib uns gerne eine Email oder besuche uns bei den Proben, wenn Du Lust hast mitzumachen.</p>
+<div class="split style1">
+<section>
+<ul class="contact">
+{% assign sorted_posts = site.kontakt | sort:"position" %}
+{% for post in sorted_posts %}
+{% unless post.disabled %}
+<li>
+<h3>{{ post.title }}</h3>
+{{ post.content | markdownify }}
+</li>
+{% endunless %}
+{% endfor %}
+</ul>
+</section>
+</div>
+</div>
+</section>
