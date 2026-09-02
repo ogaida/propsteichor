@@ -1,6 +1,6 @@
 ---
 title: ''
-picture: images/logo1_gross.png
+picture: images/logo2_gross.jpg
 position: 0
 enabled: 1
 ---
