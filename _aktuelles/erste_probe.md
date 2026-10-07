@@ -5,4 +5,4 @@ fa_icon: fa-umbrella-beach
 when: 19. August 2026
 ---
 
-Erste Probe nach den Sommerferien.
+Erste Probe nach den Sommerferien..
