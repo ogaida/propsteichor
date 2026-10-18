@@ -1,7 +1,7 @@
 ---
 title: Proben
 position: 2
-picture: images/propsteichor.jpg
+picture: images/propsteichor-26.jpg
 ---
 
 Alle Interessierten sind jederzeit willkommen.
