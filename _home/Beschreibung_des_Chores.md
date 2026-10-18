@@ -6,5 +6,5 @@ Der Chor zeichnet sich durch eine offene Gemeinschaft aus und freut sich über j
 
 <ul class="actions">
     <li><a href="#one" class="button scrolly">Über uns</a></li>
- 	  <li><a href="#three" class="button scrolly">Kontakt</a></li>
+ 	  <li><a href="#five" class="button scrolly">Kontakt</a></li>
 </ul>
