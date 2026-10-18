@@ -59,6 +59,8 @@ collections:
   ueber_uns:
   aktuelles:
   kontakt:
+  vorstand:
+  leitung:
 
 jekyll_admin:
   hidden_links:

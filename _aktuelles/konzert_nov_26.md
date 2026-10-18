@@ -6,3 +6,7 @@ fa_icon: fa-bell
 ---
 
 Antrittskonzert von Felix Günther in der Basilika St. Cyriakus
+
+<ul class="actions">
+    <li><a href="https://www.kirche-duderstadt.de/gemeinde/termine-veranstaltungen/details/antrittskonzert-von-regionalkantor-felix-guenther-1-1-1/" class="button scrolly">weitere Informationen</a></li>
+</ul>
